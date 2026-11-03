@@ -1,0 +1,6 @@
+interface:
+  display_name: "苏格拉底阅读法"
+  short_description: "用四层次阅读和苏格拉底追问链带读、精读或评估一本书"
+  default_prompt: "使用 $socratic-reading 按我的目标带读这本书，通过复述、追问和迁移检验理解。"
+policy:
+  allow_implicit_invocation: true

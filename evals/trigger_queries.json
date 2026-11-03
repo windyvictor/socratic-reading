@@ -1,0 +1,14 @@
+{
+  "skill": "socratic-reading",
+  "protocol": "每条查询在新会话运行 3 次；记录是否加载本技能及误路由原因。",
+  "queries": [
+    {"query": "带我读《如何阅读一本书》，每次只问一个问题。", "should_trigger": true},
+    {"query": "这本书值不值得精读？先帮我做检视阅读。", "should_trigger": true},
+    {"query": "根据目录和前两章，帮我梳理作者的核心问题，明确材料范围。", "should_trigger": true},
+    {"query": "我复述完这一章后，请纠正并给一个迁移问题。", "should_trigger": true},
+    {"query": "比较三本书对同一问题的回答，做主题阅读。", "should_trigger": true},
+    {"query": "精读这篇机器学习论文的实验。", "should_trigger": false},
+    {"query": "直接把这段摘录做成永久笔记。", "should_trigger": false},
+    {"query": "给我推荐几款电子阅读器。", "should_trigger": false}
+  ]
+}
