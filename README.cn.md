@@ -1,6 +1,6 @@
 # socratic-reading
 
-[English](README.md) | 中文
+[English](README.md) | 中文 · [Research Skillbox 总导航](https://github.com/windyvictor/research-skillbox)
 
 > 用**苏格拉底提问法**读一本书 —— 带着问题读，用追问检验理解。
 
@@ -8,6 +8,16 @@
 
 以艾德勒「四层次阅读」为流程骨架，以四个基本问题（苏格拉底式追问链）为思考引擎，
 融合《越读者》选书体系与《高效能阅读》速读产出法。
+
+## 你会得到什么
+
+- 决定一本书是否值得深读之前的检视阅读地图
+- 根据读者真实回答推进、纠正和追问的互动共读
+- 对术语、主旨、论证、证据和全书结构的分析阅读
+- 围绕同一问题比较多本书的主题阅读
+- 用复述、纠正和迁移任务检验理解是否真的可用
+
+工作路径是：**明确阅读目的 → 检视全书结构 → 重建作者论证 → 追问与评断 → 连接已有知识或迁移应用**。只拿到目录、书评或一章时，会明确材料范围，不假装读完整本书。
 
 ## 四个基本问题（全流程骨架）
 
@@ -59,3 +69,12 @@ socratic-reading/
 
 > 「我想认真读一遍《思考，快与慢》，帮我做一份阅读计划。」
 > 「这本书我读完了但说不清讲了什么，用苏格拉底式问题帮我检验一下。」
+
+## 安装
+
+```bash
+git clone https://github.com/windyvictor/socratic-reading.git
+ln -s "$PWD/socratic-reading" ~/.agents/skills/socratic-reading
+```
+
+其他宿主请把仓库放入对应的 skills 目录。
